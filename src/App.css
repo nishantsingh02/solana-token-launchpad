@@ -296,3 +296,22 @@ button:active::after {
 .btn {
   padding: 20px;
 }
+
+.wallet-adapter-button {
+    background-color: #6b5b95 !important;
+    color: white !important;
+    border-radius: 222px !important;
+    padding: 8px 16px !important;
+    font-weight: bold !important;
+}
+
+.wallet-adapter-button:hover {
+    background-color: #563d7c !important;
+}
+
+
+.custom-wallet-container .wallet-adapter-button {
+    background-color: #6b5b95 !important;
+    color: white !important;
+}
+

@@ -20,9 +20,9 @@ function App() {
         <ConnectionProvider endpoint={endpoint}>
           <WalletProvider wallets={[]} autoConnect>
             <WalletModalProvider>
-              <div className="flex justify-between items-center p-8">
-                <WalletMultiButton />
-                <WalletDisconnectButton />
+              <div className="custom-wallet-container flex justify-between items-center p-8">
+                <WalletMultiButton className="" />
+                <WalletDisconnectButton className="disconnect" />
               </div>
 
               <TokenLaunchpad></TokenLaunchpad>
